@@ -1,0 +1,23 @@
+.cell {
+    border: 1px black solid;
+    background-color: darkgray;
+    height: 30px;
+    width: 30px;
+}
+
+.cellRow {
+    display: flex;
+}
+
+.cell.open {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.cell.flag {
+    background: url("https://banner2.cleanpng.com/20180325/kqe/kisspng-minesweeper-computer-icons-bing-maps-video-game-mines-5ab7a191c79531.0286407715219838898175.jpg") center / cover;
+}
+
+.cell.mine {
+    background: url("https://static.thenounproject.com/png/915944-200.png") center / cover;
+}
